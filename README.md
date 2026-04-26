@@ -1,6 +1,7 @@
 #  Library Management System
  
-A desktop **Library Management System** built with **Java (Swing GUI)** and **SQLite**, developed as a Java OOP assignment. The application allows librarians to manage books, members, staff and borrowing transactions through a clean graphical interface.
+A **console-based Library Management System** built with **Java** and **SQLite**, developed as a Java OOP assignment.  
+The application allows librarians to manage books, members, staff, and borrowing transactions through a simple **menu-driven command-line interface**.
  
 ---
  
