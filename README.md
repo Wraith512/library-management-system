@@ -62,14 +62,14 @@ LibraryManagementSystem/
 │   ├── service/
 │   │   └── LibraryService.java          # Business logic layer
 │   ├── ui/
-│   │   └── LibraryUI.java               # Swing GUI (JFrame + JTabbedPane)
+│   │   └── LibraryUI.java              
 │   ├── db/
 │   │   ├── DatabaseConnection.java      # Singleton JDBC connection
 │   │   └── DatabaseInitializer.java     # Schema creation + seed data
 │   └── util/
 │       └── ConsoleUtil.java             # Utility helpers
 ├── sql/
-│   └── library_schema.sql               # Full schema + sample data
+│   └── library_schema.sql               # Full schema
 └── report/
     └── LibraryManagementSystem_Report.docx
 ```
@@ -99,6 +99,7 @@ java -cp "out;sqlite-jdbc.jar" Main
 
 ## Console interface
 After running the program, you will see a menu like:
+
 ===== Library Management System =====
 1. View Dashboard
 2. Manage Books
@@ -107,7 +108,9 @@ After running the program, you will see a menu like:
 5. Transactions
 6. Overdue Report
 0. Exit
+
 ====================================
+
 Enter your choice:
  
 ---
