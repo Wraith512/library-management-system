@@ -77,13 +77,6 @@ LibraryManagementSystem/
  
 ##  How to Run
  
-### Prerequisites
-- **Java JDK 17 or higher** — Download from [adoptium.net](https://adoptium.net)
-- **SQLite JDBC Driver** — Download `sqlite-jdbc-x.x.x.jar` from [github.com/xerial/sqlite-jdbc/releases](https://github.com/xerial/sqlite-jdbc/releases)
-Place the downloaded JAR in the root `LibraryManagementSystem/` folder.
- 
----
- 
 ### Step 1 — Compile
  
  
@@ -107,7 +100,7 @@ A GUI window will open. The database (`library.db`) is created automatically wit
  
 ---
  
-##  Sample Data (Pre-loaded)
+##  Sample Data 
  
 The app auto-seeds the database with:
 - **3 Librarians** — Alice Johnson, Bob Martinez, Clara Singh
