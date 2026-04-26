@@ -6,7 +6,17 @@ The application allows librarians to manage books, members, staff, and borrowing
 ---
  
 ##  Screenshots
- 
+
+### interface
+<img width="963" height="449" alt="Screenshot 2026-04-26 210753" src="https://github.com/user-attachments/assets/848b021c-9c48-4973-9442-9fd104d4f220" />
+
+## Demo
+### Adding a book
+<img width="1242" height="501" alt="Screenshot 2026-04-26 211556" src="https://github.com/user-attachments/assets/b27734ed-1a01-4c6c-aebf-9e01156c517d" />
+<img width="1919" height="639" alt="Screenshot 2026-04-26 211608" src="https://github.com/user-attachments/assets/f0700994-2f21-4167-b7e8-c331bd9800a0" />
+
+
+
 
  
 ---
