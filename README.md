@@ -36,7 +36,7 @@ A desktop **Library Management System** built with **Java (Swing GUI)** and **SQ
 | **Collections** | `ArrayList` in all DAOs; `HashMap` in `getDashboardStats()` |
 | **JDBC / CRUD** | BookDAO, MemberDAO, LibrarianDAO, TransactionDAO |
 | **Exception Handling** | try/catch in every DAO method and service layer |
-| **Layered Architecture** | UI → Service → DAO → DB |
+| **Layered Architecture** | CLI → Service → DAO → DB |
  
 ---
  
@@ -95,8 +95,19 @@ javac -cp "src;sqlite-jdbc.jar" -sourcepath src -d out src\Main.java src\db\*.ja
 ```cmd
 java -cp "out;sqlite-jdbc.jar" Main
 ```
- 
-A GUI window will open. The database (`library.db`) is created automatically with sample data on first run.
+
+## Console interface
+After running the program, you will see a menu like:
+===== Library Management System =====
+1. View Dashboard
+2. Manage Books
+3. Manage Members
+4. Manage Librarians
+5. Transactions
+6. Overdue Report
+0. Exit
+====================================
+Enter your choice:
  
 ---
  
@@ -108,14 +119,15 @@ The app auto-seeds the database with:
 - **12 Books** — Clean Code, 1984, Atomic Habits, Sapiens, and more
 - **4 Sample Transactions** — including one with an overdue fine
 ---
- 
+
+
 ##  Tech Stack
  
 - **Language:** Java 17+
-- **GUI:** Java Swing
+- **Interface:** Console (CLI)
 - **Database:** SQLite (via JDBC)
 - **Driver:** xerial/sqlite-jdbc
-- **Architecture:** 4-layer (UI → Service → DAO → DB)
+- **Architecture:** 4-layer (CLI → Service → DAO → DB)
 ---
  
 ##  Notes
