@@ -24,7 +24,7 @@ The application allows librarians to manage books, members, staff, and borrowing
 ##  Features
  
 - **Dashboard** — Live stats: total books, available copies, members, active borrows, overdue count
-- **Book Management** — Add, edit, delete, and search books with copy tracking
+- **Book Management** — Add, edit, delete and search books with copy tracking
 - **Member Management** — Register members with STANDARD / PREMIUM / STUDENT tiers
 - **Librarian Management** — Manage library staff with employee codes and departments
 - **Transactions** — Check out and return books with automatic due-date calculation
@@ -111,17 +111,17 @@ java -cp "out;sqlite-jdbc.jar" Main
 After running the program, you will see a menu like:
 
 ===== Library Management System =====
-1. View Dashboard
-2. Manage Books
-3. Manage Members
-4. Manage Librarians
-5. Transactions
-6. Overdue Report
+1. Book Management  
+2. Member Management  
+3. Librarian Management  
+4. Transactions (Checkout / Return)  
+5. Dashboard Stats  
+6. Overdue Report  
 0. Exit
 
 ====================================
 
-Enter your choice:
+Choose an option:
  
 ---
  
@@ -149,3 +149,5 @@ The app auto-seeds the database with:
 - No external frameworks or build tools required — plain `javac` and `java`
 - The database file `library.db` is created in the directory where you run the app
 - To reset the database, simply delete `library.db` and re-run
+
+
